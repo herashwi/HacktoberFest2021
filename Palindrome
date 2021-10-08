@@ -1,0 +1,11 @@
+s=input()
+si=""
+r=""
+c=0
+l=list(s.split(" "))
+for i in range(len(l)):
+si=l[i]
+r=si[::-1]
+if r==si:
+c=c+1
+print(c)
